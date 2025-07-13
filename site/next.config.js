@@ -2,12 +2,12 @@
 
 const nextConfig = {
   output: 'export',
-  distDir: '../public',
+  distDir: 'out',
   env: {
     name: 'Kasm Technologies',
-    description: 'The official store for Kasm supported workspaces.',
-    icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    description: 'Me testing something.',
+    icon: 'https://vibha1019.github.io/kasm-registry/1.1/icon.png',
+    listUrl: 'https://vibha1019.github.io/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
@@ -18,4 +18,4 @@ const nextConfig = {
   }
 }
 
-module.exports = nextConfig
+module.exports = nextConfig;
